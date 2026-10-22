@@ -1,0 +1,18 @@
+KATTERUMS JAKTLAG v2.3.5
+
+1. Ersatt filerna i GitHub-repot med alla filer i detta paket.
+2. Supabase Edge Function ska heta exakt: Manage-user-v2
+3. Behall username-login oforandrad.
+4. Oppna appen och kontrollera att v2.3.5 visas.
+5. Om gammal version visas: rensa webbplatsdata/service worker och oppna igen.
+6. Ga till Installningar -> Medlemmar & atkomst.
+7. Prova Skapa login pa en befintlig medlem.
+8. Defaultlosenord ar 12345678.
+
+Andringar:
+- cloud.js anropar exakt Manage-user-v2, samma namn som deployad funktion.
+- En gemensam knapp: Medlemmar & atkomst.
+- Medlemmar, hektar, login och roller hanteras pa samma sida.
+- Fristaende Viewer kan skapas pa samma sida.
+- Erik ar fortsatt last som aktiv Admin.
+- Ny service-worker-cache for v2.3.5.

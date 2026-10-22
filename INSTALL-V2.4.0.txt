@@ -1,0 +1,21 @@
+KATTERUMS JAKTLAG v2.4.0 - MOLNBASERAT PASSREGISTER
+
+1. BEHALL ZIP-FILEN FOR v2.3.6 SOM STABIL ATERSTALLNINGSPUNKT.
+2. Oppna Supabase -> SQL Editor -> New query.
+3. Oppna SETUP-PASSES-V2.4.0.sql fran paketet, kopiera allt och kor.
+4. Ersatt samtliga appfiler i GitHub-repot med filerna fran detta paket.
+5. Oppna appen och kontrollera att v2.4.0 visas.
+6. Logga in som Erik. Vid forsta starten skapas standardpassen automatiskt i Supabase utan positioner.
+7. Oppna Installningar -> Pass och omraden / Passregister.
+8. Placera ett pass pa kartan och spara.
+9. Kontrollera i Supabase -> Table Editor -> passes att latitude och longitude har fyllts i.
+10. Logga in pa en annan enhet och kontrollera att samma passposition visas.
+
+BEVARAT
+- Login, roller och anvandarhantering fran v2.3.6.
+- Medlemsregister, jakt- och observationshistorik ligger fortfarande kvar i nuvarande lagring.
+- LocalStorage anvands som cache/aterstallningsstod for pass, inte som primar passkalla efter lyckad molnladdning.
+
+BEHORIGHETER
+- Alla aktiva anvandare i jaktlaget kan lasa pass.
+- Admin och Jaktledare kan skapa, placera, andra och arkivera pass.

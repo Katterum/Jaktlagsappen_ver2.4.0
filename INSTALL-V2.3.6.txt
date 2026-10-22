@@ -1,0 +1,25 @@
+KATTERUMS JAKTLAG v2.3.6
+
+A. REPARERA BEFINTLIGA FRISTAENDE VIEWERS
+1. Oppna Supabase -> SQL Editor -> New query.
+2. Oppna filen REPAIR-STANDALONE-USERS.sql fran paketet.
+3. Kopiera hela innehallet till SQL Editor och kor.
+4. Resultatet ska visa fristaende anvandare med rollen viewer.
+
+B. GITHUB
+1. Ersatt samtliga appfiler i repot med filerna fran detta paket.
+2. Publicera och oppna appen igen.
+3. Kontrollera att v2.3.6 visas. Rensa webbplatsdata om gammal version visas.
+
+C. TEST
+1. Logga in som Erik.
+2. Oppna Installningar -> Medlemmar & atkomst.
+3. Kontrollera sektionen Fristaende anvandare.
+4. Oppna en Viewer och prova rollbyte, inaktivering och borttagning.
+5. Logga in som Viewer och kontrollera att sidhuvudet visar VIEWER.
+
+Andringar:
+- Fristaende anvandare visas separat under Medlemmar & atkomst.
+- Fristaende anvandare kan andras, inaktiveras, aterstallas och tas bort.
+- Viewer visas som VIEWER i sidhuvudet.
+- Befintliga medlemmar, jaktdata och lokala data bevaras.
